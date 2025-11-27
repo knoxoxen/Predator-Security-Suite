@@ -1,7 +1,8 @@
 #include "predator_test_framework.h"
 #include "../helpers/predator_gps.h"
-#include "../helpers/predator_string.h"
+#include "../helpers/predator_memory_optimized.h"
 #include "../predator_i.h"
+#include <math.h>
 
 // Test context structure
 typedef struct {

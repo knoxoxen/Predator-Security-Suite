@@ -1,4 +1,5 @@
 #include "predator_test_framework.h"
+#include <string.h>
 
 bool test_run_suite(TestSuite* suite) {
     if (!suite || !suite->test_cases || suite->test_count == 0) {
